@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 223, 223);
+    height: fit-content;
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    padding: 10px;
+    font-size: larger;
+
+}

@@ -1,0 +1,28 @@
+.body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.container {
+    padding: 20px;
+    width: 400px;
+}
+.header {
+    font-size: large;
+    font-weight: bold;
+    border-left: 5px solid #f47521;
+    padding-left: 10px;
+
+  }
+.text {
+    position: absolute;
+    font-size: 18px;
+    bottom: 400px;
+    left: 50px;
+    color: white;
+}
+
+.line {
+    margin-top: 10px;
+    padding-top: 10px;
+}

@@ -1,0 +1,22 @@
+/* CSS EXternal */
+#heading_3 {
+    color: violet;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container p {
+    color: blue;
+}
+#list_code li:nth-child(1) {
+    color: yellowgreen;
+}
+#list_code li:nth-child(2) {
+    color: green;
+}
+#list_code li:nth-child(3) {
+    color: red;
+}

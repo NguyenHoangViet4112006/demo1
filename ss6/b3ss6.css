@@ -1,0 +1,49 @@
+
+.header {
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    padding: 40px;
+    background: #eaeaea;
+}
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.text2 {
+    padding: 15px 30px;
+}
+.project-button {
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}

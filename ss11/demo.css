@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+    background-color: rgb(129, 180, 165);
+    border: 1px solid black;
+    height: 300px;
+
+}
+.mobile, .tablet, .pc {
+    display: none;
+}
+
+/* Mobile: width < 768px */
+
+@media screen and (max-width: 767px) {
+    .mobie {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pc {
+        display: block;
+        }
+}
+    

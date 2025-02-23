@@ -1,0 +1,18 @@
+.container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    box-sizing: content-box;
+    padding: 90px;
+    
+}

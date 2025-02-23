@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgb(47, 103, 255);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu {
+    background-color: rgb(47, 103, 255);
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.menu table {
+    width: 20%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.menu td {
+    font-weight: bold;
+    padding: 5px 10px;
+}
+table {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: lightgray;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}

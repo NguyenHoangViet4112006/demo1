@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+
+}
+
+li {
+    list-style-type: none;
+}
+.header {
+    height: 56px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+}
+
+.header-left {
+
+}
+.header-right {
+
+}
+.main-content {
+
+}
+.list-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 48px;
+
+}
+.product-item {
+    border: 1px solid black;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: calc(25% - 12px);
+}
